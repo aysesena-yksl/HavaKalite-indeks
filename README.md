@@ -29,3 +29,30 @@ Zamana göre Atık grafiği değişiminden elde edilen sonuç atık oranının b
 Katı atık yoğunluğu ve hava kalitle indeksinin ilişkisinin gösterilmesi amacıyla korelasyon grafikleri kullanılmıştır. 
   
 ![](https://github.com/aysesena-yksl/HavaKalite-ndeks/blob/master/bafra1.PNG)  ![](https://github.com/aysesena-yksl/HavaKalite-ndeks/blob/master/bafra2.PNG)
+Grafiklere göre;   
+NO2 – PM10 grafiklerinde orta alanda bir yoğunluk görülmektedir. İki değerin doğru orantılı bir şekilde gittiği gözlemlenir. Katı Atık ve Partiküler Madde(PM10) grafiğine bakıldığında dağıtık bir şekilde şekillendiği görülmüştür. Bu da Partiküler Madde(PM10) değerinin Katı Atık İndeksinde ciddi bir yer kapladığı görülmektedir. Bu değerlerin artışında başka faktörlerinde rol aldığı unutulmamalıdır.
+### LSTM ALGORİTMASI İLE TAHMİN İŞLEMİ 
+Bafra ilçesi için kullanılan  #modelbafra.py dosyası; 
+Elde edilen grafik şu şekildedir; 
+![](https://github.com/aysesena-yksl/HavaKalite-ndeks/blob/master/bafralstm.PNG)
+Oluşturulan işlemde verilerimizin %80’i eğitim ve %20’si test verisi olarak uygulanmıştır. Modelimizin rmse değeri sonuçlandığında  16.10520247980494 sonucuna ulaşılmıştır.  . Yapılan araştırmalar sonucu rmse  değerimizin küçük olması tahmin değerlerinin gerçek değerlere  yakın değerler olduğunun kanıtı olduğu söylenebilir. 
+Sonuç olarak; tahmin verilerimizin gerçek verilerimize yaklaşık sonuçlar vermesi atık katı maddelerinin hava kalite indeksini ciddi bir oranda etkilediğini söyleyebiliriz. 
+Atakum ilçesi için  elde edilen grafik sonuçları; 
+   #veriatakum.py dosyası 
+ ![](https://github.com/aysesena-yksl/HavaKalite-ndeks/blob/master/atakum1.PNG)
+ Grafiklere göre ; Karbonmonoksit (CO) ve Partiküler Madde(PM10) maddesinin  Katı Atık İndeksi ile eş zamanlarda pik noktasına ulaştığı gözlemlenir. Bu maddelerin Atakum ilçesinde de Katı Atık İndeksi için belirleyici rol oynadığı söylenebilir. 
+Katı atık yoğunluğu ve hava kitle indeksinin ilişkisinin gösterilmesi amacıyla korelasyon grafikleri kullanılmıştır. 
+![](https://github.com/aysesena-yksl/HavaKalite-ndeks/blob/master/atakum2.PNG)
+Grafiklere göre; Azot dioksit(NO2) ile Katı Atık oranı belirli noktalarda aynı değerleri göstermektedir. Azot dioksit (NO2) ile Partiküler Madde(PM10) gazının ise bazı değerlerin etkisiyle aynı noktada olduğu gözlemlenir. 
+### LSTM ALGORİTMASI İLE TAHMİN İŞLEMİ 
+Atakum ilçesi için kullanılan  #modelatakum.py dosyası; 
+Elde edilen grafik şu şekildedir; 
+![](https://github.com/aysesena-yksl/HavaKalite-ndeks/blob/master/atakumlstm.PNG)
+Oluşturulan işlemde verilerimizin %80’i eğitim ve %20’si test  verisi olarak uygulanmıştır. Modelimizin rmse değeri sonuçlandığında 11.1055698451980494 sonucuna ulaşılmıştır.     Yapılan araştırmalar sonucu rmse  değerimizin küçük olması tahmin değerlerinin gerçek değerlere yakın sonuçlar verdiğinin kanıtıdır diyebiliriz. Sonuç olarak; tahmin verilerimizin gerçek verilerimize yaklaşık sonuçlar vermesi atık katı maddelerinin hava kalite indeksini ciddi bir oranda etkilediğini söyleyebiliriz. 
+Genel anlamda bir sonuç çıkartıldığında; 
+Yapılan çalışmalar doğrultusunda günlük olarak üretilen  atık miktarının her geçen gün arttığını söyleyebiliriz. Yaşadığımız çevrenin ve doğanın hava kalitesinin, yaşam kalitesinin artması için bireysel anlamda atık üretimimize dikkat etmeliyiz. Atık tüketimi hava, toprak su gibi yaşam döngümüz için gerekli olan maddelere zarar verdiği gözlemlenmiştir. Araştırma yapılan ilimizde “Sıfır Atık Yönetimi” ve  “Katı Atık Düzenli Depolama Alanından Çıkan Metan Gazının Kullanılarak Enerji Elde Edilmesi İşi”  gibi uygulanmakta olan projelerin artması gerektiğini düşünmekteyim. 
+ 
+ 
+
+ 
+ 
