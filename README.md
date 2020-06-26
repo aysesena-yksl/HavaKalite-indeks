@@ -46,6 +46,7 @@ Atakum ilçesi için  elde edilen grafik sonuçları;
 Grafiklere göre ; Karbonmonoksit (CO) ve Partiküler Madde(PM10) maddesinin  Katı Atık İndeksi ile eş zamanlarda pik noktasına ulaştığı gözlemlenir. Bu maddelerin Atakum ilçesinde de Katı Atık İndeksi için belirleyici rol oynadığı söylenebilir. 
 Katı atık yoğunluğu ve hava kitle indeksinin ilişkisinin gösterilmesi amacıyla korelasyon grafikleri kullanılmıştır. 
 ![](https://github.com/aysesena-yksl/HavaKalite-ndeks/blob/master/atakum2.PNG)
+
 Grafiklere göre; Azot dioksit(NO2) ile Katı Atık oranı belirli noktalarda aynı değerleri göstermektedir. Azot dioksit (NO2) ile Partiküler Madde(PM10) gazının ise bazı değerlerin etkisiyle aynı noktada olduğu gözlemlenir. 
 ### LSTM ALGORİTMASI İLE TAHMİN İŞLEMİ 
 Atakum ilçesi için kullanılan  #modelatakum.py dosyası; 
