@@ -4,10 +4,13 @@ Modern yaşamın getirdiği  şehirleşmenin de  bir sonucu olan hava kirliliği
 ### VERİ SETİ
 Çalışmada kullanılan hava verileri; 
  Çevre ve Şehircilik Bakanlığı Hava İzleme https://www.havaizleme.gov.tr/ ,   tarafından elde edilmiştir. 
-Hava kirliliği ile katı atık yoğunluğunun ele alındığı bu çalışmada Samsun iline ait 3 ilçe üzerinde çalışma yürütüldü. Çalışmada araştırma yapılan ilçeler ; Atakum, Tekkeköy ve Bafra’dır. Tekkeköy istasyonu ayrıca sanayi bölgesi içinde de yer almaktadır.  
+Hava kirliliği ile katı atık yoğunluğunun ele alındığı bu çalışmada Samsun iline ait 3 ilçe üzerinde çalışma yürütüldü.
+Çalışmada araştırma yapılan ilçeler ; Atakum, Tekkeköy ve Bafra’dır. Tekkeköy istasyonu ayrıca sanayi bölgesi içinde de yer almaktadır.  
 ### KATI ATIK VE HAVA KALİTE İNDEKSİ İLİŞKİLERİ
 Elde edilen verilerin analiz işlemleri  için aralarındaki ilişkiler grafikler halinde elde edildi. 
 Tekkeköy ilçesi için  elde edilen grafik sonuçları; 
    #veritekkekoy.py dosyası: 
    ![](https://github.com/aysesena-yksl/HavaKalite-ndeks/blob/master/4.PNG)
-
+Grafiklere göre katı atık miktarının her geçen gün arttığı gözlemlenebilir ve atmasının bir belirleyici etken vasıtası ile olduğu düşünülebilir. 
+Katı atık yoğunluğu ve hava kitle indeksinin ilişkisinin gösterilmesi amacıyla  korelasyon grafikleri kullanılmıştır. 
+   ![](https://github.com/aysesena-yksl/HavaKalite-ndeks/blob/master/6.PNG)     ![](https://github.com/aysesena-yksl/HavaKalite-ndeks/blob/master/7.PNG)
