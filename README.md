@@ -31,6 +31,7 @@ Zamana göre Atık grafiği değişiminden elde edilen sonuç atık oranının b
 Katı atık yoğunluğu ve hava kalitle indeksinin ilişkisinin gösterilmesi amacıyla korelasyon grafikleri kullanılmıştır. 
   
 ![](https://github.com/aysesena-yksl/HavaKalite-ndeks/blob/master/bafra1.PNG)  ![](https://github.com/aysesena-yksl/HavaKalite-ndeks/blob/master/bafra2.PNG)
+
 Grafiklere göre;   
 NO2 – PM10 grafiklerinde orta alanda bir yoğunluk görülmektedir. İki değerin doğru orantılı bir şekilde gittiği gözlemlenir. Katı Atık ve Partiküler Madde(PM10) grafiğine bakıldığında dağıtık bir şekilde şekillendiği görülmüştür. Bu da Partiküler Madde(PM10) değerinin Katı Atık İndeksinde ciddi bir yer kapladığı görülmektedir. Bu değerlerin artışında başka faktörlerinde rol aldığı unutulmamalıdır.
 ### LSTM ALGORİTMASI İLE TAHMİN İŞLEMİ 
