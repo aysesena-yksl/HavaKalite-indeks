@@ -10,7 +10,7 @@ Hava kirliliği ile katı atık yoğunluğunun ele alındığı bu çalışmada 
 Elde edilen verilerin analiz işlemleri  için aralarındaki ilişkiler grafikler halinde elde edildi. 
 Tekkeköy ilçesi için  elde edilen grafik sonuçları; 
    #veritekkekoy.py dosyası: 
-   ![](https://github.com/aysesena-yksl/HavaKalite-ndeks/blob/master/4.PNG)
+![](https://github.com/aysesena-yksl/HavaKalite-ndeks/blob/master/4.PNG)
 Grafiklere göre katı atık miktarının her geçen gün arttığı gözlemlenebilir ve atmasının bir belirleyici etken vasıtası ile olduğu düşünülebilir. 
 Katı atık yoğunluğu ve hava kitle indeksinin ilişkisinin gösterilmesi amacıyla  korelasyon grafikleri kullanılmıştır. 
 
@@ -22,7 +22,7 @@ Bu durumda Karbonmonoksit(CO) değeri Atık Katı İndeks ve Hava Kalite İndeks
 Tekkeköy ilçesi için kullanılan  #model.py dosyası; 
 Elde edilen grafik şu şekildedir; 
 
-   ![](https://github.com/aysesena-yksl/HavaKalite-ndeks/blob/master/lstm.PNG)
+ ![](https://github.com/aysesena-yksl/HavaKalite-ndeks/blob/master/lstm.PNG)
 Oluşturulan işlemde verilerimizin %80’i eğitim ve %20’si test verisi olarak uygulanmıştır. Modelimizin rmse değeri sonuçlandığında; 9.1055698451980494  sonucuna uaşılmıştır.   Yapılan araştırmalar sonucu rmse değerimizin küçük olması tahmin değerlerinin gerçek değerlere yakın sonuçlar verdiğini kanıtlamaktadır.Sonuç olarak; tahmin verilerimizin gerçek verilerimize yaklaşık sonuçlar vermesi atık katı maddelerinin hava kalite indeksine etkisini belirli bir şekilde söyleyebiriz. 
 Bafra ilçesi için; Elde edilen verileri analiz işleminin anlaşılması için görselleştirme işlemi gerçekleştirilmiştir. 
 #veribafra.py  dosyasının çıktısı; 
@@ -50,7 +50,8 @@ Grafiklere göre; Azot dioksit(NO2) ile Katı Atık oranı belirli noktalarda ay
 Atakum ilçesi için kullanılan  #modelatakum.py dosyası; 
 Elde edilen grafik şu şekildedir; 
 ![](https://github.com/aysesena-yksl/HavaKalite-ndeks/blob/master/atakumlstm.PNG)
-Oluşturulan işlemde verilerimizin %80’i eğitim ve %20’si test  verisi olarak uygulanmıştır. Modelimizin rmse değeri sonuçlandığında 11.1055698451980494 sonucuna ulaşılmıştır.     Yapılan araştırmalar sonucu rmse  değerimizin küçük olması tahmin değerlerinin gerçek değerlere yakın sonuçlar verdiğinin kanıtıdır diyebiliriz. Sonuç olarak; tahmin verilerimizin gerçek verilerimize yaklaşık sonuçlar vermesi atık katı maddelerinin hava kalite indeksini ciddi bir oranda etkilediğini söyleyebiliriz. 
+
+Oluşturulan işlemde verilerimizin %80’i eğitim ve %20’si test  verisi olarak uygulanmıştır. Modelimizin rmse değeri sonuçlandığında 11.1055698451980494 sonucuna ulaşılmıştır.    Yapılan araştırmalar sonucu rmse  değerimizin küçük olması tahmin değerlerinin gerçek değerlere yakın sonuçlar verdiğinin kanıtıdır diyebiliriz. Sonuç olarak; tahmin verilerimizin gerçek verilerimize yaklaşık sonuçlar vermesi atık katı maddelerinin hava kalite indeksini ciddi bir oranda etkilediğini söyleyebiliriz. 
 Genel anlamda bir sonuç çıkartıldığında; 
 Yapılan çalışmalar doğrultusunda günlük olarak üretilen  atık miktarının her geçen gün arttığını söyleyebiliriz. Yaşadığımız çevrenin ve doğanın hava kalitesinin, yaşam kalitesinin artması için bireysel anlamda atık üretimimize dikkat etmeliyiz. Atık tüketimi hava, toprak su gibi yaşam döngümüz için gerekli olan maddelere zarar verdiği gözlemlenmiştir. Araştırma yapılan ilimizde “Sıfır Atık Yönetimi” ve  “Katı Atık Düzenli Depolama Alanından Çıkan Metan Gazının Kullanılarak Enerji Elde Edilmesi İşi”  gibi uygulanmakta olan projelerin artması gerektiğini düşünmekteyim. 
  
