@@ -14,3 +14,10 @@ Tekkeköy ilçesi için  elde edilen grafik sonuçları;
 Grafiklere göre katı atık miktarının her geçen gün arttığı gözlemlenebilir ve atmasının bir belirleyici etken vasıtası ile olduğu düşünülebilir. 
 Katı atık yoğunluğu ve hava kitle indeksinin ilişkisinin gösterilmesi amacıyla  korelasyon grafikleri kullanılmıştır. 
    ![](https://github.com/aysesena-yksl/HavaKalite-ndeks/blob/master/6.PNG)     ![](https://github.com/aysesena-yksl/HavaKalite-ndeks/blob/master/7.PNG)
+Grafikler incelendiğinde Karbonmonoksit(CO) , Kükürtdioksit(SO2) gazları ele alındığında belirli noktalarda yoğunluk gözlenmektedir. Bu görsele göre katı atık ve Karbonmonoksit(CO) gazı incelendiğinde katı atık  yoğunluğunun düzenli bir şekilde Karbonmonoksit(CO) gazı ile ilişkili olduğu tespit edilmiştir. 
+Bu durumda Karbonmonoksit(CO) değeri Atık Katı İndeks ve Hava Kalite İndeks arasındaki ilişkide önemli bir rol oynadığı düşünülmektedir. 
+### LSTM ALGORİTMASI KULLANILARAK TAHMİN İŞLEMİ 
+Tekkeköy ilçesi için kullanılan  #model.py dosyası; 
+Elde edilen grafik şu şekildedir; 
+
+   ![](https://github.com/aysesena-yksl/HavaKalite-ndeks/blob/master/lstm.PNG)
