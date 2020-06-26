@@ -9,5 +9,5 @@ Hava kirliliği ile katı atık yoğunluğunun ele alındığı bu çalışmada 
 Elde edilen verilerin analiz işlemleri  için aralarındaki ilişkiler grafikler halinde elde edildi. 
 Tekkeköy ilçesi için  elde edilen grafik sonuçları; 
    #veritekkekoy.py dosyası: 
-   ![](https://pandao.github.io/editor.md/HavaKalite-ndeks/images/4.png)
+   ![](https://github.com/aysesena-yksl/HavaKalite-ndeks/blob/master/4.PNG)
 
