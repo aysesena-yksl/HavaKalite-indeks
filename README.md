@@ -21,3 +21,11 @@ Tekkeköy ilçesi için kullanılan  #model.py dosyası;
 Elde edilen grafik şu şekildedir; 
 
    ![](https://github.com/aysesena-yksl/HavaKalite-ndeks/blob/master/lstm.PNG)
+Oluşturulan işlemde verilerimizin %80’i eğitim ve %20’si test verisi olarak uygulanmıştır. Modelimizin rmse değeri sonuçlandığında; 9.1055698451980494  sonucuna uaşılmıştır.   Yapılan araştırmalar sonucu rmse değerimizin küçük olması tahmin değerlerinin gerçek değerlere yakın sonuçlar verdiğini kanıtlamaktadır.Sonuç olarak; tahmin verilerimizin gerçek verilerimize yaklaşık sonuçlar vermesi atık katı maddelerinin hava kalite indeksine etkisini belirli bir şekilde söyleyebiriz. 
+Bafra ilçesi için; Elde edilen verileri analiz işleminin anlaşılması için görselleştirme işlemi gerçekleştirilmiştir. 
+#veribafra.py  dosyasının çıktısı; 
+![](https://github.com/aysesena-yksl/HavaKalite-ndeks/blob/master/veri.PNG)
+Zamana göre Atık grafiği değişiminden elde edilen sonuç atık oranının belirli noktalarda pik yaptığı ve arttığı gözlenmiştir. Hava Kalite İndeksini etkileyen faktörler ve Katı Atık değişimi ele alındığında ise Partiküler Madde(PM10) ve Azot dioksit (NO2) gazının pik yaptığı noktalar ile  atık oranın genellikle aynı zamanlarda arttığı gözlemlenmiştir ve bu  sonuçtan Partiküler Madde(PM10) ve Azot dioksit (NO2) gazının atık oranını etkilediği düşünülebilir. 
+Katı atık yoğunluğu ve hava kalitle indeksinin ilişkisinin gösterilmesi amacıyla korelasyon grafikleri kullanılmıştır. 
+  
+![](https://github.com/aysesena-yksl/HavaKalite-ndeks/blob/master/bafra1.PNG)  ![](https://github.com/aysesena-yksl/HavaKalite-ndeks/blob/master/bafra2.PNG)
